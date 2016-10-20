@@ -1,0 +1,7 @@
+name: newtify
+dependencies:
+  polymer: ^1.0.0-rc.16
+transformers:
+- polymer:
+    entry_points:
+      - web/index.html

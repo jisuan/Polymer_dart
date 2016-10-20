@@ -1,0 +1,2 @@
+1.19.1
+polymer_interop/src/build/minify_transformer,reflectable/src/transform_import
