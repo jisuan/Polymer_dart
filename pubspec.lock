@@ -25,6 +25,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.15.2+9"
+  browser:
+    description:
+      name: browser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.10.0+2"
   charcode:
     description:
       name: charcode
@@ -127,6 +133,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0-rc.18"
+  polymer_elements:
+    description:
+      name: polymer_elements
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0-rc.9"
   polymer_interop:
     description:
       name: polymer_interop

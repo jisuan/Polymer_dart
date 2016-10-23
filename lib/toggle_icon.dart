@@ -1,15 +1,14 @@
-@HtmlImport('toggleIcon.html')
-library First_try.lib.toggleIcon;
+@HtmlImport('toggle_icon.html')
+library polymer_dart.toggle_icon;
 
 import 'dart:html';
+import 'package:polymer/polymer.dart';
+import 'package:polymer_elements/iron_icons.dart';
+import 'package:polymer_elements/iron_icon.dart';
 import 'package:web_components/web_components.dart' show HtmlImport;
 
-// components
-import 'package:polymer/polymer.dart';
-
-@PolymerRegister('toggle_Icon')
+@PolymerRegister('toggle-icon')
 class IconToggle extends PolymerElement {
-
   @property
   String toggleIcon;
 
@@ -18,9 +17,7 @@ class IconToggle extends PolymerElement {
 
   IconToggle.created() : super.created();
 
-  void ready() {
-    print("$runtimeType::ready()");
-  }
+  void ready() {}
 
   @Listen('tap')
   void toggle(Event event, Map detail) {

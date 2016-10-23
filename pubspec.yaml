@@ -1,6 +1,8 @@
-name: newtify
+name: polymer_test
 dependencies:
   polymer: ^1.0.0-rc.16
+  polymer_elements: ^1.0.0-rc.8
+  browser: any
 transformers:
 - polymer:
     entry_points:
